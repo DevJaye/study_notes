@@ -144,14 +144,20 @@ git config --global --unset user.email
 - `.ssh`中的`config`文件
 ```config
 # dj199209
+# dj199209
 Host dj199209
+    # HostName ssh.github.com
     HostName github.com
+    # Port 443
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa_dj199209
     User git
- # devjaye
+
+# devjaye
 Host devjaye
+    # HostName ssh.github.com
     HostName github.com
+    # Port 443
     PreferredAuthentications publickey
     IdentityFile ~/.ssh/id_rsa_devjaye
     User git
