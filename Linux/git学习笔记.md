@@ -178,3 +178,5 @@ Host devjaye
 	remote = origin
 	merge = refs/heads/master
 ```
+- 出现`WARNING: UNPROTECTED PRIVATE KEY FILE!的解决办法` 
+  - 权限过高降至700
