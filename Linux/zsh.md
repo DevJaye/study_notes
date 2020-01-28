@@ -1,4 +1,9 @@
 
+# 查看当前shell
+
+`echo $SHELL` 
+- 查看有哪些shell
+`cat /etc/shells`  
 # zsh的配置
 - 下载配置文件从自己的github上`.config`文件夹
   - cp -f .config/.zshrc ~/

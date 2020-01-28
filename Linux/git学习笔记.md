@@ -27,6 +27,14 @@
 - 不想提交某个文件
 - 新建文件`.gitignore` 书写忽略文件名
 - 已经追踪文件添加至忽略文件无效需要输入
+```shell
+git rm -r -n --cached "bin/" //-n：加上这个参数，执行命令时，是不会删除任何文件，而是展示此命令要删除的文件列表预览。
+git rm -r --cached  "bin/"      //最终执行命令. 
+git commit -m" remove bin folder all file out of control"    //提交
+git push origin master   //提交到远程服务器
+```
+
+<++>
 `git rm --cached 文件名称` 告诉git不追踪这个文件,git会告知已经移除此文件
 - git 分支
 `git branch 名字`
