@@ -70,8 +70,8 @@ funcsave sudo
 
 ## 安装i3
 - `sudo pacman -S i3` 
-  - 回车
-- 选择i3(两次回车)
+  [](-) 回车
+[](-) 选择i3(两次回车)
   - 问你没生成过i3配置文件是否生成`enter` 
   - 问你使用win键还是alt作为你的super键`enter`
   - win+enter打开终端
@@ -88,3 +88,11 @@ funcsave sudo
 - `sudo pacman -S alacritty` 使用显卡渲染的的终端
 - 安装emenu `sudo pacman -S dmenu` 
   - `win+s` 屏幕顶上打开一个菜单,这个菜单可以打开一个程序,`win+d` 
+### 安装中文输入法
+  - `sudo pacman -S fcitx fcitx-im fcitx-configtool` 
+    - sudo pacman -S fcitx-sougoupinyin
+    - 编辑`~/.xprofile` 
+      - export GTK_IM_MODULE=fcitx
+      - export QT_IM_MODULE=fcitx
+      - export XMODIFIERS="@im=fcitx"
+      - 
