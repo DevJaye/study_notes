@@ -234,4 +234,11 @@ plug(vim-airline/vim-airline)
 
 - 需要安装的插件
 
+### 粘贴操作
 
+[`"]+[a]+[yy]` 将复制的一行存在a寄存器
+使用`:reg a` [查看a寄存器中的内容](查看a寄存器中的内容)
+["]+[a]+[p] 粘贴啊寄存将中的内容
+- 在vim内输入`echo has('clipboard')` 输出唯`1` 就是支持`0`不支持 
+  - 不支持怎么办？ 
+    - `sudo pacman -S xsel` 用于管理系统剪贴板的命令行工具(xsel或xclip)即可
