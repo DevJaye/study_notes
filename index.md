@@ -26,7 +26,8 @@
 
 ### ranger
 - [ranger学习笔记](Linux/ranger学习笔记.md): 这是ranger的学习笔记
-### [zsh](linux/zsh.md)
+### [zsh](Linux/zsh.md)
+
 
  
 # [windous](windous/index.md)
