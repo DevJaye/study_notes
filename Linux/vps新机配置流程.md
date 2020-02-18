@@ -17,7 +17,7 @@ ClientAliveCountMax 3
 ```
 - 重启sshd服务
 	- debian下
-启动SSH服务，命令为：/etc/init.d/ssh start // 或者service ssh start
+启动SSH服务，命令为：/etc/init.d/ssh restart // 或者service ssh start
 验证SSH服务状态，命令为：/etc/init.d/ssh status
  添加开机自启动   update-rc.d ssh enable
 关闭则为：
@@ -63,3 +63,6 @@ update-rc.d ssh disabled
   - 安装youcompleteme
     - `cd .vim/plugged/YouComleteMe`
     - `python3 install.py`
+### 安装v2ray
+
+bash <(curl -s -L https://git.io/v2ray.sh)
