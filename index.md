@@ -1,4 +1,4 @@
-# [Java](Java/index.md)
+[#](#) [Java](Java/index.md)
 ## Java基础
 
 
@@ -15,6 +15,7 @@
 - [manjaro新机配置流程](Linux/manjaro新机配置流程.md)
 - [vps新机配置流程](Linux/vps新机配置流程.md)
 - [windous下linux配置](Linux/windous下linux配置.md)
+- [ssh](Linux/ssh.md)
 ### vim
 - [vim学习笔记](Linux/vim学习笔记.md): 这是vim的学习笔记
 
@@ -28,6 +29,9 @@
 - [ranger学习笔记](Linux/ranger学习笔记.md): 这是ranger的学习笔记
 ### [zsh](Linux/zsh.md)
 
+
+## 数据库
+- [mysql数据库](Database/mysql.md)
 
  
 # [windous](windous/index.md)

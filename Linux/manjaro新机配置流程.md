@@ -27,7 +27,7 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 3. 中科大源`http://mirrors.ustc.edu.cn/archlinuxcn/$arch` 
 源只可以添加一个
 ### 更新源
-sudo pacman-mirrors -c China
+`sudo pacman-mirrors -c China`
 `sudo pacman-mirrors -i -c China -m rank ` 更新镜像排名
 - 强制刷新现在的更新源`sudo pacman -Syyu` 
 - 录屏软件 `sudo pacman -S simplescreenrecorder`

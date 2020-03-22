@@ -1,4 +1,4 @@
-# Springboot整合UEditor图片上传功能笔记
+[#](#) Springboot整合UEditor图片上传功能笔记
 ## 新建springboot项目
 - 添加web和thymeleaf包
  - SpringBoot框架，配备了Thymeleaf模板引擎
